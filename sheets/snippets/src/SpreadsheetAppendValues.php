@@ -45,8 +45,8 @@ function appendValues($spreadsheetId, $range, $valueInputOption)
         // TODO(developer) - handle error appropriately
         echo 'Message: ' . $e->getMessage();
     }
-    // [END sheets_append_values]
 }
+// [END sheets_append_values]
 
 require 'vendor/autoload.php';
 appendValues('1sN_EOj0aYp5hn9DeqSY72G7sKaFRg82CsMGnK_Tooa8', 'Sheet1!A1:B2', "RAW");
